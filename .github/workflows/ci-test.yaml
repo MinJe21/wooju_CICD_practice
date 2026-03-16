@@ -2,7 +2,7 @@ name: Spring Boot CI-test
 
 on:
   push:
-    branches: [ master, dev ]
+    branches: [ master, ci-test ]
   pull_request:
     branches: [ master ]
     paths:
