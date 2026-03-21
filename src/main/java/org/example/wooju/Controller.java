@@ -1,10 +1,12 @@
+package org.example.wooju;
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 class Controller {
-    @GetMapping("/")
+    @GetMapping("/test")
     public String hello() {
-        return "Hello, CD Test v1"; // 나중에 v2로 바꿔서 테스트할 부분입니다.
+        return "Hello, CD Test v2"; // 나중에 v2로 바꿔서 테스트할 부분입니다.
     }
 }
